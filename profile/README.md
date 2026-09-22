@@ -38,15 +38,13 @@ En el retail moderno, la falta de visibilidad en tiempo real sobre inventarios, 
 | Repositorio | Descripción | Stack Principal |
 | :--- | :--- | :--- |
 | **OptiWay-Backend** | API REST y lógica de dominio bajo Arquitectura Hexagonal | Java 17, Spring Boot 4, Spring Security 7, PostgreSQL (Supabase) |
-| **OptiWay-Frontend** | Interfaz de usuario para planificación, monitoreo y gestión | Frontend Web, REST Client |
+| **OptiWay-Frontend** | Interfaz de usuario para planificación, monitoreo y gestión | React, TypeScript, Vite, Tailwind CSS |
 
 ## Principios de Ingeniería
 
 * **Arquitectura Hexagonal (Puertos y Adaptadores):** Núcleo de negocio desacoplado de bases de datos y frameworks externos.
 * **Seguridad y Control de Acceso (RBAC):** Autenticación y autorización estricta basada en roles operativos mediante JWT.
 * **Diseño Orientado al Dominio:** Modelado fiel de las entidades logísticas y operativas de la cadena de suministro.
-
----
 
 <div align="center">
 <sub>Desarrollado por el equipo de <b>SupplyCore</b></sub>
